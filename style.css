@@ -1,0 +1,73 @@
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+}
+
+button {
+  height: 35px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#home {
+  background-color: green;
+  color: white;
+}
+
+#menu {
+  background-color: white;
+}
+
+#contact {
+  background-color: red;
+  color: white;
+}
+
+.home, .menu, .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+.name {
+  color: forestgreen;
+  font-size: 3rem;
+}
+
+.menu > h1 {
+  font-size: 3rem;
+}
+
+.contact > h1 {
+  font-size: 3rem;
+}
+
+.pizza-pic {
+  height: 28em;
+  width: 40em;
+  box-shadow: 0 0 10px 2px gray, 0 0 20px 5px white;
+}
+
+.oven {
+  height:auto;
+  max-width: 25%;
+}
+
+.tag-line {
+  text-align: center;
+}
+
+.info {
+  max-width: 40ch;
+  font-size: 1rem;
+}
+
+ul {
+  font-size: 1.8rem;
+  list-style: none;
+  line-height: 5rem;
+}
